@@ -9,12 +9,15 @@
         android:targetSdkVersion="19" />
 
     <application
+        android:name="com.radiusnetworks.proximity.androidproximityreference.AndroidProximityReferenceApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <!-- the android:launchMode="singleInstance" is needed to keep multiple copies of this activity from getting created -->
         <activity
             android:name="com.radiusnetworks.proximity.androidproximityreference.MainActivity"
+            android:launchMode="singleInstance"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

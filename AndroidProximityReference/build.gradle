@@ -6,12 +6,13 @@ buildscript {
         classpath 'com.android.tools.build:gradle:0.6.+'
     }
 }
+
 apply plugin: 'android'
 
 repositories {
     mavenCentral()
     flatDir {
-      dirs '../../AndroidProximityLibrary/build/libs'
+      dirs 'libs'
     }
 }
 
@@ -23,7 +24,6 @@ android {
         minSdkVersion 18
         targetSdkVersion 19
     }
-    // NEED THIS SECTION FOR ProximityKit.properites (or any properites files) to be included in build
     sourceSets {
         main {
             resources.srcDirs = ['src/main/java']

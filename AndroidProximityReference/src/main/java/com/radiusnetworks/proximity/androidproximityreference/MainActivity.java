@@ -78,8 +78,8 @@ public class MainActivity extends Activity implements IBeaconConsumer, RangeNoti
             Log.d(TAG, "data fetch error:"+e);
         }
         if (iBeaconData != null) {
-            Log.d(TAG, "I have an iBeacon with data: uuid="+iBeacon.getProximityUuid()+" major="+iBeacon.getMajor()+" minor="+iBeacon.getMinor()+" ScavengerhuntLocation="+iBeaconData.get("ScavengerHunt"));
-            String displayString = iBeacon.getProximityUuid()+" "+iBeacon.getMajor()+" "+iBeacon.getMinor()+"\n"+"ScavengerHuntLocation:"+iBeaconData.get("scavengerHuntLocation");
+            Log.d(TAG, "I have an iBeacon with data: uuid="+iBeacon.getProximityUuid()+" major="+iBeacon.getMajor()+" minor="+iBeacon.getMinor()+" welcomeMessage="+iBeaconData.get("welcomeMessage"));
+            String displayString = iBeacon.getProximityUuid()+" "+iBeacon.getMajor()+" "+iBeacon.getMinor()+"\n"+"Welcome message:"+iBeaconData.get("welcomeMessage");
             displayTableRow(iBeacon, displayString, true);
         }
     }
