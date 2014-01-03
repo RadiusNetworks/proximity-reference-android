@@ -38,6 +38,7 @@ public class MainActivity extends Activity implements IBeaconConsumer, RangeNoti
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        IBeaconManager.LOG_DEBUG = true;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -83,6 +84,7 @@ public class MainActivity extends Activity implements IBeaconConsumer, RangeNoti
             displayTableRow(iBeacon, displayString, true);
         }
     }
+
     private void displayTableRow(final IBeacon iBeacon, final String displayString, final boolean updateIfExists) {
         runOnUiThread(new Runnable() {
             @Override
