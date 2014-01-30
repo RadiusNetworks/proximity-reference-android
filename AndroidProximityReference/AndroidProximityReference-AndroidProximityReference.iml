@@ -71,10 +71,8 @@
     <orderEntry type="jdk" jdkName="Android API 18 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="android-support-v4" level="project" />
-    <orderEntry type="library" exported="" name="ComRadiusnetworksAndroidProximityLibrary101.aar" level="project" />
     <orderEntry type="library" exported="" name="AndroidIBeaconLibrary" level="project" />
-    <orderEntry type="library" exported="" name="jackson-core-lgpl-1.9.13" level="project" />
-    <orderEntry type="library" exported="" name="jackson-mapper-lgpl-1.9.13" level="project" />
+    <orderEntry type="library" exported="" name="ComRadiusnetworksAndroidProximityLibrary110.aar" level="project" />
   </component>
 </module>
 

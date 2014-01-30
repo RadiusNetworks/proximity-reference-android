@@ -29,15 +29,8 @@ android {
             resources.srcDirs = ['src/main/java']
         }
     }
-    android {
-        packagingOptions {
-            exclude 'META-INF/LGPL2.1'
-            exclude 'META-INF/LICENSE'
-            exclude 'META-INF/NOTICE'
-        }
-    }
 }
 
 dependencies {
-    compile 'com.radiusnetworks:AndroidProximityLibrary:1.0.1@aar'
+    compile 'com.radiusnetworks:AndroidProximityLibrary:1.1.0@aar'
 }
