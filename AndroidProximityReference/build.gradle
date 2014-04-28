@@ -32,5 +32,7 @@ android {
 }
 
 dependencies {
-    compile 'com.radiusnetworks:AndroidProximityLibrary:1.1.0@aar'
+    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.radiusnetworks:AndroidProximityLibrary:1+@aar'
 }
+
