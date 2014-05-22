@@ -10,11 +10,15 @@ This repository hosts a reference application for using the Pro Android iBeacon 
 
 The app is as small and simple as possible to demonstrate basic functionality of the library in an understandable way.  You may use it as the starting point of a more sophisticated app of your own.
 
-##Building the App
+##Building the App with AndroidStudo
 
-The app may be built using Android Studio 0.4.6 and Gradle 1.9. Other versions of this software may not compile. Make sure to have Android build tools version 18.1.1 downloaded into your Android SDK Manager as well. 
+The app may be built using Android Studio 0.5.2 and Gradle 1.10. Other versions of this software may not compile. Make sure to have Android build tools version 18.1.1 downloaded into your Android SDK Manager as well. 
 
 To build the app, unzip the project file, open Android Studio and select Import Project. Select the build.gradle file within the top level of the project folder and hit OK. Click the Run button or select Run 'AndroidProximityReference' from the Run dropdown menu on the top bar.
+
+##Building the App with Eclipse
+
+Note that this project also contains an Eclipse branch.  Switch to that branch if using Eclipse.
 
 ##Running the App
 
