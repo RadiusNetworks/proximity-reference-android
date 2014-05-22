@@ -16,7 +16,7 @@ The app may be launched manually, and after the first reboot, it will launch its
 
 When in the foreground, the app displays a list of the identifiers of all iBeacons detected, along with a cloud-configured welcome message for each beacon, if one is set up.
 
-You can run the app as-is in AndroidStudio (using the master branch) or on Eclipse (using the Eclipse branch).  The reference app has the library already bundled, and is configured to connect to a test account on ProximityKit.com to fetch iBeacon configuration data.
+You can run the app as-is in Android Studio (using the master branch w/ Android Studio 0.5.2 and Gradle 1.10) or on Eclipse (using the Eclipse branch).  The reference app has the library already bundled, and is configured to connect to a test account on ProximityKit.com to fetch iBeacon configuration data.
 
 The test ProximityKit account has the iBeacon configurations shown below, which decide the beacon identifiers that trigger the app, and the messages that get displayed to the user.
 
